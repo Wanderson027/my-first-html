@@ -1,0 +1,48 @@
+form{
+
+border: 1px solid black;
+margin: auto;
+width: 300px;
+height: 500px;
+background-color: rgb(236, 232, 232);
+} 
+.input-1{
+    margin-left: 14px;
+   margin-bottom: 16px;
+
+}
+label{
+    margin-left: 0px;
+}
+.box{
+    position: relative;
+    margin-left: 20px !important;
+    margin-bottom: 10px;
+    
+}
+.box-head{
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.form1 {
+    text-align: float;
+    border: 1px solid black;
+    margin: auto;
+    width: 200px;
+    height: 400px;
+    background-color: azure;
+}
+h4{
+    margin: 27px 1px -11px 7px;
+}
+.submi-2{
+    text-align: center;
+    
+}
+.botoes{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 93, 180);
+    padding: 6px 21px;
+}

@@ -1,5 +1,6 @@
 header {
     margin: auto;
+    margin-top: 10px;
     padding: 30px;
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
@@ -29,6 +30,7 @@ header nav {
 
 main {
     margin: auto;
+    margin-top: 10px;
     padding: 30px;
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
@@ -37,6 +39,7 @@ main {
 
 main h2,
 h3,
+h4,
 p {
     border: 1px solid rgb(80, 138, 172);
     border-radius: 10px;
@@ -51,9 +54,23 @@ main img {
 }
 
 footer {
-    margin: auto;
+    margin-top: 10px;
     padding: 30px;
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
     border: 1px solid rgb(80, 138, 172);
+    height: 200px;
+}
+
+.int-esquerdo {
+    float: left
+}
+
+.int-direito {
+    float: right;
+}
+
+.footer-esquerdo {
+    width: 200px;
+    height: 50px;
 }

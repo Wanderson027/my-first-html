@@ -1,30 +1,33 @@
-form{
-
-border: 1px solid black;
-margin: auto;
-width: 300px;
-height: 500px;
-background-color: rgb(236, 232, 232);
-} 
-.input-1{
-    margin-left: 14px;
-   margin-bottom: 16px;
-
+form {
+    border: 1px solid rgb(46, 44, 44);
+    width: 300px;
+    height: 450px;
+    background-color: rgba(10, 7, 7, 0.541);
+    margin: 75px 550px;
+    border-radius: 10px;
 }
-label{
+
+.input-1 {
+    margin-left: 14px;
+    margin-bottom: 16px;
+}
+
+label {
     margin-left: 0px;
 }
-.box{
+
+.box {
     position: relative;
     margin-left: 20px !important;
     margin-bottom: 10px;
-    
 }
-.box-head{
+
+.box-head {
     position: relative;
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
 .form1 {
     text-align: float;
     border: 1px solid black;
@@ -33,16 +36,32 @@ label{
     height: 400px;
     background-color: azure;
 }
-h4{
+
+h4 {
     margin: 27px 1px -11px 7px;
 }
-.submi-2{
+
+.submi-2 {
     text-align: center;
-    
 }
-.botoes{
-    border-radius: 20px;
+
+.botoes {
+    border-radius: 7px;
     color: rgb(255, 255, 255);
     background-color: rgb(93, 93, 180);
     padding: 6px 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f00;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(1, 1, 107, 0.849), red);
+    color: white;
 }

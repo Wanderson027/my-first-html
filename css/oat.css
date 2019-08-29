@@ -1,8 +1,8 @@
 form {
     border: 1px solid rgb(46, 44, 44);
     width: 300px;
-    height: 450px;
-    background-color: rgba(189, 182, 182, 0.322);
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.534);
     margin: 75px 550px;
     border-radius: 10px;
 }
@@ -20,6 +20,11 @@ label {
     position: relative;
     margin-left: 20px !important;
     margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(28, 129, 211)
 }
 
 .box-head {
@@ -48,7 +53,7 @@ h4 {
 .botoes {
     border-radius: 7px;
     color: rgb(255, 255, 255);
-    background-color: rgb(93, 93, 180);
+    background-color: rgb(45, 159, 204);
     padding: 6px 21px;
 }
 
@@ -62,6 +67,7 @@ a:hover {
 }
 
 body {
-    background-image:url(https://images4.alphacoders.com/279/thumb-1920-279264.jpg);                               /*linear-gradient(45deg, rgba(1, 1, 107, 0.849), red);*/
+    background-image: url(https://images4.alphacoders.com/279/thumb-1920-279264.jpg);
+    /*linear-gradient(45deg, rgba(1, 1, 107, 0.849), red);*/
     color: white;
 }

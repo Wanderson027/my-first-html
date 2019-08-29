@@ -1,6 +1,6 @@
 form {
     border: 1px solid rgb(46, 44, 44);
-    width: 300px;
+    width: 320px;
     height: 520px;
     background-color: rgba(0, 0, 0, 0.534);
     margin: 75px 550px;
@@ -10,6 +10,7 @@ form {
 .input-1 {
     margin-left: 14px;
     margin-bottom: 16px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 label {
@@ -20,17 +21,18 @@ label {
     position: relative;
     margin-left: 20px !important;
     margin-bottom: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
     color: rgb(255, 255, 255);
-    font-weight: 700;
-    text-shadow: 1px 1px 2px rgb(28, 129, 211)
+    font-weight: 500;
+   
 }
 
 .box-head {
     position: relative;
     margin-left: 10px;
     margin-bottom: 10px;
+   
 }
 
 .form1 {
@@ -48,6 +50,7 @@ h4 {
 
 .submi-2 {
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .botoes {
@@ -55,10 +58,12 @@ h4 {
     color: rgb(255, 255, 255);
     background-color: rgb(45, 159, 204);
     padding: 6px 21px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 a:hover {
@@ -70,4 +75,12 @@ body {
     background-image: url(https://images4.alphacoders.com/279/thumb-1920-279264.jpg);
     /*linear-gradient(45deg, rgba(1, 1, 107, 0.849), red);*/
     color: white;
+}
+.caixas{
+    border-radius: 5px;
+    width: 270px;
+}
+.caixas-select{
+    border-radius: 5px;
+    width: 170px;
 }
